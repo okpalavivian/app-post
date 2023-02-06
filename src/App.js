@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+
+import { Slide } from 'react-slideshow-image';
 import './App.css';
+import Post1 from './pages/Post1';
+import Post2 from './pages/Post2';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   
+    <Post2 />
+    <Slide />
     </div>
   );
 }
