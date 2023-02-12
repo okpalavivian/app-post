@@ -1,7 +1,7 @@
 import React from "react";
 
 const Slideshow = () => {
-  return <div>Home</div>;
+  return <div></div>;
 };
 
 export default Slideshow;

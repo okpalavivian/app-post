@@ -29,8 +29,10 @@ const Post2 = () => {
         </div>
       </div>
       <div className="text5-main">
-        <div className="text5">Apply Now</div>
-        <div className="text5">></div>
+        <div className="text5">
+          <button>Apply Now</button>
+        </div>
+        <div className="text5"></div>
       </div>
     </div>
   );
